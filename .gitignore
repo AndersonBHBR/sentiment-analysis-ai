@@ -1,0 +1,27 @@
+# Ambientes Virtuais
+.venv/
+venv/
+env/
+bin/
+lib/
+include/
+
+# Python (Arquivos temporários e compilados)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Dados (Não queremos subir o CSV que o pipeline gera localmente)
+data/*.csv
+
+# Docker (Caso existam logs específicos)
+.dockerignore
+
+# IDEs (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
